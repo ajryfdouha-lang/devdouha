@@ -1,0 +1,47 @@
+.hero-section {
+    height: 80vh;
+    background-image: url('https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=1600&q=80'); /* Image de parfum luxe par défaut */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.hero-overlay {
+    background: rgba(0, 0, 0, 0.5); /* Filtre sombre pour lire le texte */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 4rem;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    font-family: 'Serif', 'Times New Roman';
+}
+
+.btn-shop {
+    background-color: #d4af37; /* Couleur Or */
+    color: black;
+    padding: 15px 30px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 20px;
+}
+
+.btn-shop:hover {
+    background-color: #c5a028;
+    transform: scale(1.05);
+}
